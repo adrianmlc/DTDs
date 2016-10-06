@@ -6,4 +6,8 @@
 <!ATTLIST jugador codigo ID #REQUIRED>
 ]>
 <jugadoresFutbol>
+  <jugador nombre="Alfredo Di Stéfano" codigo="Uno"/>
+  <jugador nombre="Edison Arantes do Nascimento-Pelé" codigo="Dos"/>
+  <jugador nombre="Diego Armando Maradona" codigo="Tres"/>
+  <jugador nombre="Johan Cruyff" codigo="Cuatro"/>
 </jugadoresFutbol>
