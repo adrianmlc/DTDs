@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE song SYSTEM "6_1b.dtd">
+
+<song anio="1992">
+<title>Mi carro me lo robaron</title>
+<composers>
+<composer>
+<nombre>Alfredo</nombre>
+<apellidos>Cañas del Rio</apellidos>
+</composer>
+</composers>
+<producers>
+<producer>
+<nombre>Los del Rio</nombre>
+<apellidos>Del rio Profundo</apellidos>
+</producer>
+</producers>
+<publisher>Topete</publisher>
+<artists>
+<artist>Estopa</artist>
+</artists>
+</song>

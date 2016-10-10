@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cd SYSTEM "6_1c.dtd">
+
+<cd>
+<songs>
+<song anio="1992">
+<title>Mi carro me lo robaron</title>
+<composers>
+<composer>
+<nombre>Alfredo</nombre>
+<apellidos>Cañas del Rio</apellidos>
+</composer>
+</composers>
+<producers>
+<producer>
+<nombre>Los del Rio</nombre>
+<apellidos>Del rio Profundo</apellidos>
+</producer>
+</producers>
+<publisher>Topete</publisher>
+<artists>
+<artist>Estopa</artist>
+</artists>
+</song>
+</songs>
+<fecha dia="25" mes="Abril" anio="1993"/>
+</cd>

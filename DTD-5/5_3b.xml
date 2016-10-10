@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros SYSTEM "5_3.dtd">
+
+<libros>
+<Libro isbn="A" nivel="10" fecha="04 de Agosto" paginas="103" autor="Chiquito de la Calzada" editor="Muchos Libros">
+<Titulo>Don Quijote de la Mancha</Titulo>
+<Comentarios>Muy buen libro.</Comentarios>
+<Comentarios>Totalmente recomendable.</Comentarios>
+<Categoria>Novela clásica</Categoria>
+<Categoria>Aventuras</Categoria>
+<Precio moneda="eur">Incalculable</Precio>
+</Libro>
+<Libro isbn="B" nivel="7" fecha="25 de Enero" paginas="76" autor="Pepito de los palotes" editor="Pocos Libros">
+<Titulo>Happy Petter</Titulo>
+<Comentarios>Libro regulero.</Comentarios>
+<Comentarios>Final totalmente esperado.</Comentarios>
+<Categoria>Fantasía</Categoria>
+<Categoria>Ciencia-Ficcion</Categoria>
+<Precio moneda="lib">Dos duros</Precio>
+</Libro>
+</libros>

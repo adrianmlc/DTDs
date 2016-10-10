@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE song [
+<!ELEMENT song (title, composers, producers, publisher, artists)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT composers (composer+)>
+<!ELEMENT composer (nombre, apellidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT producers (producer+)>
+<!ELEMENT producer (nombre, apellidos)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT artists (artist+)>
+<!ELEMENT artist (#PCDATA)>
+<!ATTLIST song length CDATA #IMPLIED>
+<!ATTLIST song anio CDATA #REQUIRED>
+]>
+
+<song anio="1992">
+<title>Mi carro me lo robaron</title>
+<composers>
+<composer>
+<nombre>Alfredo</nombre>
+<apellidos>Cañas del Rio</apellidos>
+</composer>
+</composers>
+<producers>
+<producer>
+<nombre>Los del Rio</nombre>
+<apellidos>Del rio Profundo</apellidos>
+</producer>
+</producers>
+<publisher>Topete</publisher>
+<artists>
+<artist>Estopa</artist>
+</artists>
+</song>

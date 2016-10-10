@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros SYSTEM "5_3.dtd">
+
+<libros>
+<Libro isbn="A" fecha="04 de Agosto" paginas="103">
+<Titulo>Don Quijote de la Mancha</Titulo>
+<Categoria>Novela clásica</Categoria>
+</Libro>
+</libros>
