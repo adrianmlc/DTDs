@@ -1,0 +1,13 @@
+<!ELEMENT alumno (nombre, apellidos, edad?,direccion, nota, comentario)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT direccion (calle, numero, piso, poblacion, codigo postal>
+<!ELEMENT nota (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT piso (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT codigo postal (#PCDATA)>
+<!ATTLIST alumno DNI CDATA #REQUIRED>

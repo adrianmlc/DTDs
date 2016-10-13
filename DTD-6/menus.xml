@@ -3,15 +3,16 @@
 <!ELEMENT menus (menu+)>
 <!ELEMENT menu (comida, bebida)>
 <!ELEMENT comida (primero, segundo, postre)>
-<!ELEMENT primero (#PCDATA)>
-<!ELEMENT bebida (#PCDATA)>
+<!ELEMENT primero (#PCDATA | opcion)*>
+<!ELEMENT segundo (#PCDATA | opcion)*>
+<!ELEMENT postre (#PCDATA | opcion)*>
+<!ELEMENT bebida (#PCDATA | opcion)*>
+<!ELEMENT opcion EMPTY>
 <!ATTLIST menu precio CDATA #REQUIRED>
 <!ATTLIST menu tarjeta CDATA #IMPLIED>
-<!ATTLIST primero tipo CDATA #REQUIRED>
-<!ATTLIST segundo tipo CDATA #REQUIRED>
-<!ATTLIST postre tipo CDATA #REQUIRED>
 <!ATTLIST bebida tamanyo CDATA #REQUIRED>
-<!ATTLIST bebida 
+<!ATTLIST opcion tipo CDATA #IMPLIED>
+]>
 
 <menus>
   <menu precio="10" tarjeta="no">
@@ -22,7 +23,7 @@
     </primero>
       <segundo>
        chuleta 
-	   <opcion tipo="cerdo"/>  
+	   <opcion tipo="cerdo"/>
     </segundo>
       <postre>
        flan

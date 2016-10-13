@@ -3,23 +3,23 @@
 
 <cd>
 <songs>
-<song anio="1992">
-<title>Mi carro me lo robaron</title>
+<song anio="1978">
+<title>Hot Cop</title>
 <composers>
 <composer>
-<nombre>Alfredo</nombre>
-<apellidos>Cañas del Rio</apellidos>
+<nombre>Henry</nombre>
+<apellidos>Beolo</apellidos>
 </composer>
 </composers>
 <producers>
 <producer>
-<nombre>Los del Rio</nombre>
-<apellidos>Del rio Profundo</apellidos>
+<nombre>Jacques</nombre>
+<apellidos>Morali</apellidos>
 </producer>
 </producers>
-<publisher>Topete</publisher>
+<publisher>PolyGram</publisher>
 <artists>
-<artist>Estopa</artist>
+<artist>Village People</artist>
 </artists>
 </song>
 </songs>
