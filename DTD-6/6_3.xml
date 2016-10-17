@@ -1,17 +1,39 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE alumno SYSTEM "6_3.dtd">
+<!DOCTYPE alumnos SYSTEM "6_3.dtd">
 
+<alumnos>
 <alumno DNI="11112222A">
-<nombre>Adrian Miguel</nombre>
-<apellidos>Lopez Casanueva</apellidos>
-<edad>23</edad>
-<direccion>
-<calle>Camino de Rubin</calle>
-<numero>15</numero>
-<piso>1</piso>
-<poblacion>Gijon</poblacion>
-<codigo-postal>33213</codigo-postal>
-</direccion>
-<nota>10</nota>
-<comentario>Excelente estudiante</comentario>
+  <nombre>Adrián Miguel</nombre>
+  <apellidos>Lopez Casanueva</apellidos>
+  <edad>23</edad>
+  <direccion>
+    <calle>Camino de Rubin</calle>
+    <numero>15</numero>
+    <piso>1</piso>
+    <poblacion>Gijon</poblacion>
+    <codigo-postal>33213</codigo-postal>
+  </direccion>
+  <nota>10</nota>
+  <comentario>Excelente estudiante</comentario>
 </alumno>
+<alumno DNI="33334444B">
+  <nombre>Ivan</nombre>
+  <apellidos>Canal Rey</apellidos>
+  <edad>24</edad>
+  <direccion>
+    <calle>La Guia</calle>
+    <numero>34</numero>
+    <piso>4</piso>
+    <poblacion>Gijon</poblacion>
+    <codigo-postal>33003</codigo-postal>
+  </direccion>
+  <nota>7.5</nota>
+  <comentario>Estudiante regulero.</comentario>
+</alumno>
+<alumno DNI="55556666C">
+  <nombre>Pepe</nombre>
+  <apellidos>Martinez Perez</apellidos>
+  <nota>7.5</nota>
+  <comentario>Estudiante regulero.</comentario>
+</alumno>
+</alumnos>
